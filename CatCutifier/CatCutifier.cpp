@@ -19,3 +19,22 @@ void cat::clean_cat()
 {
 	// pass all to clean
 }
+
+
+void dog::set_dog_name()
+{
+
+}
+void dog::set_dog_color()
+{
+
+}
+int  dog::count_dog()
+{
+	return 2;
+}
+
+void dog::paint_dog()
+{
+
+}

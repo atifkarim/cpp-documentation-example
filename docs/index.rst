@@ -18,3 +18,7 @@ Docs
 .. doxygenstruct:: cat
    :members:
    :private-members:
+
+.. doxygenclass:: dog
+   :members:
+   :private-members:
