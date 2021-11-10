@@ -42,7 +42,7 @@ if read_the_docs_build:
 # -- Project information -----------------------------------------------------
 
 project = 'CatCutifier'
-copyright = '2019, Simon Brand'
+copyright = '2021, Atif Karim'
 author = 'Simon Brand'
 
 
