@@ -23,7 +23,7 @@ def configureDoxyfile(input_dir, output_dir):
 
 	filedata = filedata.replace('@DOXYGEN_INPUT_DIR@', input_dir)
 	filedata = filedata.replace('@DOXYGEN_OUTPUT_DIR@', output_dir)
-	
+
 	with open('Doxyfile', 'w') as file:
 		file.write(filedata)
 
@@ -53,7 +53,17 @@ author = 'Simon Brand'
 # ones.
 #...
 
-extensions = [ "breathe" ]
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.imgmath',
+    'sphinx.ext.todo',
+    'sphinx.ext.graphviz',
+    'sphinx.ext.inheritance_diagram',
+    'breathe',
+]
 
 #...
 
@@ -80,3 +90,6 @@ html_static_path = ['_static']
 
 # Breathe Configuration
 breathe_default_project = "CatCutifier"
+
+# make the graphs more readable
+inheritance_graph_attrs = dict(rankdir="TB", size='""')

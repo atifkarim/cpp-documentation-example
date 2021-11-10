@@ -38,3 +38,13 @@ void dog::paint_dog()
 {
 
 }
+
+void Base_A::PrintStudentInfo()
+{
+
+}
+
+void Child_A::PrintRegInfo()
+{
+
+}

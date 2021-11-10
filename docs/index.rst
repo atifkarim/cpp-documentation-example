@@ -22,3 +22,18 @@ Docs
 .. doxygenclass:: dog
    :members:
    :private-members:
+
+Inheritance
+===========
+
+.. doxygenclass:: Base_A
+   :members:
+   :private-members:
+
+.. doxygenclass:: Child_A
+   :members:
+   :private-members:
+
+.. doxygenfunction:: print_status
+
+.. doxygenenum:: GROUP_COLOR
